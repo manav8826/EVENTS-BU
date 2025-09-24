@@ -33,7 +33,11 @@ User Management: Admin panel for organizers & members
 
 Notifications: Event announcements and result tracking
 
-📷 Screenshots
+## 📷 Screenshots
+
+![Dashboard View](https://github.com/manav8826/EVENTS-BU/raw/my-new-branch/1713675778186.jpeg)  
+![Event Page View](https://github.com/manav8826/EVENTS-BU/raw/my-new-branch/1713675778919.jpeg)
+
 
 
 
@@ -74,7 +78,7 @@ Update DB credentials in includes/db.php or config.php as per your setup.
 Open your browser and go to:
 
 http://localhost/EVENTS-BU/
-
+```bash
 📂 Project Structure
 EVENTS-BU/
 ├── index.php                 # Landing page
