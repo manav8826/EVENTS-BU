@@ -1,19 +1,15 @@
 🎉 EVENTS@BU – Unified Club Portal for Bennett University
+
 Developed by:
 Manav Gupta (E22CSEU1736)
 Yasharth Singh (E22CSEU1391)
+
 Mentored by:
 Mrs. Akansha Singh (Professor, SCSET)
 
-
-## 📷 Screenshot
-
-![Model UI Demo](https://github.com/manav8826/EVENTS-BU/blob/my-new-branch/1713675778186.jpeg?raw=true)
-![Model UI Demo](https://github.com/manav8826/EVENTS-BU/blob/my-new-branch/1713675778919.jpeg?raw=true)
-
-
 📌 About the Project
-EVENTS@BU is a centralized web portal to bring all student clubs at Bennett University under one roof. It simplifies communication, event tracking, and participation, encouraging a vibrant and collaborative campus culture.
+
+EVENTS@BU is a centralized web portal designed to unify all student clubs at Bennett University. The platform streamlines communication, event management, and participation tracking, fostering a collaborative and vibrant campus culture.
 
 🚀 Tech Stack
 Category	Technology
@@ -21,108 +17,125 @@ Category	Technology
 🌐 Backend	PHP
 🗄️ Database	MySQL
 🎨 UI/UX	Bootstrap (optional)
-🧪 Testing	Manual/User-based
-🌍 Hosting	(To be added based on deployment platform)
-
+🧪 Testing	Manual / User-based
+🌍 Hosting	TBD (based on deployment)
 🧰 Features Overview
-🔗 All clubs integrated into one platform
 
-📅 Real-time Event Calendar with countdown
+Unified Club Platform: All student clubs integrated into a single portal
 
-🏅 Activity Leaderboards
+Event Calendar: Real-time events with countdown timers
 
-📝 Club Registration and Approval Flow
+Leaderboards: Track participation and achievements
 
-🧑‍🤝‍🧑 User Management for members and organizers
+Club Registration: Easy registration & approval workflow
 
-📣 Event announcements and result tracking
+User Management: Admin panel for organizers & members
+
+Notifications: Event announcements and result tracking
+
+📷 Screenshots
+
+
+
 
 ⚙️ Local Setup Instructions
-Follow these steps to run the project locally on your machine:
-
 1. Clone the Repository
 git clone https://github.com/manav8826/EVENTS-BU.git
 cd EVENTS-BU
 
+2. Set Up Local Server
 
-3. Set Up a Local Server
-This project uses PHP, so you can use tools like:
+This project uses PHP. Recommended tools:
 
-XAMPP (Recommended)
+XAMPP (Windows)
 
-WAMP
+WAMP (Windows)
 
 MAMP (Mac)
 
-If you're using XAMPP:
+Using XAMPP:
 
 Place the project folder inside htdocs.
 
 Start Apache and MySQL from the XAMPP Control Panel.
 
-3. Set Up the Database
-Open phpMyAdmin (usually at http://localhost/phpmyadmin).
+3. Set Up Database
 
-Create a new database named (e.g., events_bu).
+Open phpMyAdmin (http://localhost/phpmyadmin).
 
-Import the SQL file (if available in repo or shared separately).
+Create a new database, e.g., events_bu.
 
-⚠️ Make sure to update DB credentials in any config files (like db.php or config.php) as per your setup.
+Import the SQL file from the repository (if provided).
+
+Update DB credentials in includes/db.php or config.php as per your setup.
 
 4. Run the Project
+
 Open your browser and go to:
 
-arduino
-Copy
-Edit
 http://localhost/EVENTS-BU/
-📂 Project Structure (Basic)
-cpp
-Copy
-Edit
-EVENTS-BU/
-├── index.php
-├── register.php
-├── login.php
-├── dashboard/
-│   ├── events.php
-│   ├── leaderboard.php
-│   └── ...
-├── includes/
-│   ├── db.php
-│   └── header.php
-├── css/
-├── js/
-└── README.md
 
+📂 Project Structure
+EVENTS-BU/
+├── index.php                 # Landing page
+├── register.php              # User registration
+├── login.php                 # User login
+├── dashboard/                # Protected dashboard for logged-in users
+│   ├── events.php            # Event listings
+│   ├── leaderboard.php       # Participation leaderboard
+│   └── profile.php           # User profile management
+├── includes/                 # Reusable components & configs
+│   ├── db.php                # Database connection
+│   ├── header.php            # Common header file
+│   └── footer.php            # Common footer file
+├── css/                      # Stylesheets
+│   └── style.css
+├── js/                       # JavaScript scripts
+│   └── main.js
+├── images/                   # Project images & screenshots
+└── README.md                 # Project documentation
+
+
+🔹 Tip: Keep includes/ for shared code, dashboard/ for authenticated user pages, and css/js/images organized for maintainability.
 
 🙋 Frequently Asked Questions
+
 Q1: Can I participate in multiple clubs?
-Yes! Students are encouraged to join and engage in multiple clubs.
+Yes! Students are encouraged to join and engage with multiple clubs.
 
 Q2: How do I track event results?
-Check the leaderboard section on the portal for real-time updates.
+Check the Leaderboard section for real-time updates.
 
-Q3: Where can I register for a club?
-Visit the club’s profile page and click on the Join button.
+Q3: How do I register for a club?
+Visit a club’s profile page and click the Join button.
 
-👥 Contributing (Optional)
-Want to improve this project or add a feature?
+👥 Contributing
 
-Fork the repo
+Want to improve the project? Follow these steps:
 
-Create a new branch git checkout -b feature-name
+Fork the repository
+
+Create a new branch
+
+git checkout -b feature-name
+
 
 Make your changes
 
-Commit your changes: git commit -m "Added new feature"
+Commit your changes
 
-Push to the branch: git push origin feature-name
+git commit -m "Added new feature"
 
-Submit a pull request
+
+Push your branch
+
+git push origin feature-name
+
+
+Open a pull request
 
 📬 Contact & Feedback
-Have questions or suggestions?
 
-📧 Email:  manavgupta8527@gmail.com
-💬 Reach out via GitHub Issues or pull requests.
+Email: manavgupta8527@gmail.com
+
+GitHub: Open issues or PRs for feedback
