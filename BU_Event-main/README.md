@@ -11,6 +11,7 @@ Mrs. Akansha Singh (Professor, SCSET)
 
 EVENTS@BU is a centralized web portal designed to unify all student clubs at Bennett University. The platform streamlines communication, event management, and participation tracking, fostering a collaborative and vibrant campus culture.
 
+```bash
 🚀 Tech Stack
 Category	Technology
 🧠 Frontend	HTML, CSS, JavaScript
@@ -20,6 +21,7 @@ Category	Technology
 🧪 Testing	Manual / User-based
 🌍 Hosting	TBD (based on deployment)
 🧰 Features Overview
+`````
 
 Unified Club Platform: All student clubs integrated into a single portal
 
@@ -41,7 +43,7 @@ Notifications: Event announcements and result tracking
 
 
 
-
+```bash
 ⚙️ Local Setup Instructions
 1. Clone the Repository
 git clone https://github.com/manav8826/EVENTS-BU.git
@@ -78,6 +80,8 @@ Update DB credentials in includes/db.php or config.php as per your setup.
 Open your browser and go to:
 
 http://localhost/EVENTS-BU/
+
+````
 ```bash
 📂 Project Structure
 EVENTS-BU/
@@ -98,7 +102,7 @@ EVENTS-BU/
 │   └── main.js
 ├── images/                   # Project images & screenshots
 └── README.md                 # Project documentation
-
+```
 
 🔹 Tip: Keep includes/ for shared code, dashboard/ for authenticated user pages, and css/js/images organized for maintainability.
 
